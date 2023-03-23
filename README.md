@@ -11,3 +11,4 @@
 # Verkefni 2
 
 ### [Myndband](https://www.youtube.com/watch?v=Q72WvuWAets)
+### [Skjöl](https://github.com/hedinn1/Leikjaforritun1/tree/main/Verkefni2)
