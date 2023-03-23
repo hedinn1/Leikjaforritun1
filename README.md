@@ -8,4 +8,6 @@
 ### [Myndband](https://youtu.be/TlSODX9HWnU)
 ### [Scripts](https://github.com/hedinn1/Leikjaforritun1/tree/main/Verkefni1b%20Scripts)
 
- 
+# Verkefni 2
+
+### [Myndband](https://www.youtube.com/watch?v=Q72WvuWAets)
