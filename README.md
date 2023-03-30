@@ -18,5 +18,7 @@
 #### Leikmaður er í fjallalandi þar sem kúlur koma alls staðar að
 ### [Myndband](https://www.youtube.com/watch?v=28kaxbJD368)
 ### [Assets](https://github.com/hedinn1/Leikjaforritun1/tree/main/Assets)
+### [Release af leiknum](https://github.com/hedinn1/Leikjaforritun1/blob/main/Assets/verkefni3.exe)
+
 
 
