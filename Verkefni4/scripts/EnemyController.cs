@@ -17,7 +17,6 @@ public class EnemyController : MonoBehaviour
     
     Animator animator;
     
-    // Start is called before the first frame update
     void Start()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
@@ -27,7 +26,7 @@ public class EnemyController : MonoBehaviour
 
     void Update()
     {
-        //remember ! inverse the test, so if broken is true !broken will be false and return won’t be executed.
+        // Ef óvinur er brotinn þá hættum við í keyrslu á FixedUpdate().
         if(!broken)
         {
             return;
@@ -52,12 +51,14 @@ public class EnemyController : MonoBehaviour
         
         Vector2 position = rigidbody2D.position;
         
+        // Ef ferð á lóðréttu áttinni er valin, þá hreyfum við óvin lóðrétt.
         if (vertical)
         {
             position.y = position.y + Time.deltaTime * speed * direction;
             animator.SetFloat("Move X", 0);
             animator.SetFloat("Move Y", direction);
         }
+        // Annars hreyfum við hann lárétt.
         else
         {
             position.x = position.x + Time.deltaTime * speed * direction;
@@ -67,7 +68,7 @@ public class EnemyController : MonoBehaviour
         
         rigidbody2D.MovePosition(position);
     }
-    
+    // Þegar óvinur rekst á leikmann, þá minnkum við heilsu leikmannsins um 1.
     void OnCollisionEnter2D(Collision2D other)
     {
         RubyController player = other.gameObject.GetComponent<RubyController >();
