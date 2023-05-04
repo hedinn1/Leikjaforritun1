@@ -10,15 +10,18 @@ public class NonPlayerCharacter : MonoBehaviour
     
     void Start()
     {
-        dialogBox.SetActive(false);
+        dialogBox.SetActive(false); // Felur dialog í byrjun.
         timerDisplay = -1.0f;
     }
     
     void Update()
     {
+        // Ef dialog er að sýnast:
         if (timerDisplay >= 0)
         {
             timerDisplay -= Time.deltaTime;
+            
+            // Ef tími er liðinn, felur dialog.
             if (timerDisplay < 0)
             {
                 dialogBox.SetActive(false);
@@ -28,6 +31,7 @@ public class NonPlayerCharacter : MonoBehaviour
     
     public void DisplayDialog()
     {
+        // Birtir dialog í displayTime sekúndur.
         timerDisplay = displayTime;
         dialogBox.SetActive(true);
     }
