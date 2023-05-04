@@ -20,5 +20,11 @@
 ### [Assets](https://github.com/hedinn1/Leikjaforritun1/tree/main/Assets)
 ### [Release af leiknum](https://github.com/hedinn1/Leikjaforritun1/blob/main/Assets/verkefni3.exe)
 
+# Verkefni 4
+
+### [Myndband](https://www.youtube.com/watch?v=I1UTS2CG2PQ)
+### [Skriftur](https://github.com/hedinn1/Leikjaforritun1/tree/main/Verkefni4/scripts)
+### [Release af leiknum](https://github.com/hedinn1/Leikjaforritun1/blob/main/Verkefni4/verke4.exe)
+
 
 
