@@ -12,16 +12,19 @@ public class UIHealthBar : MonoBehaviour
     
     void Awake()
     {
+        // Núllstillum stofnaða breytu til að halda utan um eina tilvist af þessum klasa.
         instance = this;
     }
 
     void Start()
     {
+        // Geymum upphaflega stærð myndarinnar.
         originalSize = mask.rectTransform.rect.width;
     }
 
     public void SetValue(float value)
-    {				      
+    {				    
+        // Setjum nýja stærð á masakinn sem sýnir lif út frá innsláttargildi.
         mask.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, originalSize * value);
     }
 }
