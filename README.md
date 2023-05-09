@@ -26,5 +26,10 @@
 ### [Skriftur](https://github.com/hedinn1/Leikjaforritun1/tree/main/Verkefni4/scripts)
 ### [Release af leiknum](https://github.com/hedinn1/Leikjaforritun1/blob/main/Verkefni4/verke4.exe)
 
+# Verkefni 5
+
+### [Myndband](https://www.youtube.com/watch?v=Hr4mKKgycaw)
+### [Skriftur](https://github.com/hedinn1/Leikjaforritun1/tree/main/verkefni5-scripts)
+### [Release af leiknum](https://github.com/hedinn1/Leikjaforritun1/blob/main/verk5.exe)
 
 
